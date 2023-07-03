@@ -3,6 +3,7 @@ import pickle
 import base64
 import numpy as np
 import pandas as pd
+from sklearn.preprocessing import Standard Scaler
 
 st.title('Water_potability')
 ph=st.slider('Enter your ph-level',0.0,14.0,0.5)
